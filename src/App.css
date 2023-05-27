@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+:root {
+    --dark-text: #373330;
+    --light-text: #E1D6CA;
+    --lightest-text: rgba(251, 239, 226, 1);
+    /* CSS HSL */
+    --lightest: hsla(46, 15%, 83%, 1);
+    --light: hsla(82, 20%, 62%, 1);
+    --middle: hsla(119, 19%, 42%, 1);
+    --dark: hsla(131, 22%, 29%, 1);
+    --darkest: hsla(150, 20%, 25%, 1);
+}
+
+/* Navbar stuff */
+.nav {
+    background-color: var(--darkest);
+    color: var(--lightest);
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 9vh;
+  }
+  
+  #title {
+    font-size: 2rem;
+    text-decoration-line: none;
+  }
+
+  #title :hover {
+    opacity: .7;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: .25rem;
+  }
+  
+  .nav .active {
+    text-decoration: underline;
+  }
+
+  .nav li:hover {
+    opacity: .7;
+  }
+  
+  .nav a:hover {
+    color: var(--lightest);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
