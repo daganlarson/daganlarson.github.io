@@ -1,5 +1,5 @@
 import Navbar from "./pages/navbar/Navbar";
-import "./App.css";
+import "./App.scss";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import XWinder from "./pages/projects/xwinder/xwinder_page";
 import Contact from "./pages/Contact";
 import Scheduler from "./pages/projects/scheduler/scheduler_page";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projects/scheduler" element={<Scheduler />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }

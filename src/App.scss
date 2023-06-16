@@ -1,11 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
 :root {
     --dark-text: #373330;
     --light-text: #E1D6CA;
@@ -17,6 +9,11 @@ body {
     --dark: hsla(131, 22%, 29%, 1);
     --darkest: hsla(150, 20%, 25%, 1);
 }
+
+* {
+    box-sizing: border-box;
+}
+
 
 /* Navbar stuff */
 .nav {
@@ -67,6 +64,32 @@ body {
   .nav a:hover {
     color: var(--lightest);
   }
+
+
+.about {
+    text-align: center;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    min-height: 100vh;
+}
+
+/* Contact Page */
+.contact {
+    background-color: var(--lightest);
+    min-height: 100vh;
+}
+
+
+
+.home {
+    background-color: var(--lightest);
+    min-height: 100vh;
+}
+
+.projects {
+    background-color: var(--lightest);
+    min-height: 100vh;
+}
   
 
 

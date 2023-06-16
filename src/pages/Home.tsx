@@ -1,5 +1,11 @@
+import "../App.scss";
+
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div className="home">
+      <h1>Home</h1>
+    </div>
+  );
 }
 
 export default Home;
